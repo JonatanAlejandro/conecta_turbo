@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h1, h2, h3{
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+/* Contenedor principal */
+.container{
+    margin-top: 40px;
+}
+
+/* Formularios */
+form{
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Inputs */
+input, textarea, select{
+    border-radius: 6px !important;
+}
+
+/* Tarjetas */
+.card{
+    border: none;
+    border-radius: 12px;
+}
+
+/* Botones */
+button, .btn{
+    border-radius: 6px !important;
+    transition: 0.3s;
+}
+
+/* Hover botones */
+.btn:hover{
+    transform: scale(1.02);
+}
+
+/* Texto */
+p{
+    color: #555;
+}
+
+/* Links */
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
